@@ -17,6 +17,7 @@
 		EC1C17442A2D806C0033B0E9 /* Sanat_KitabimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1C17432A2D806C0033B0E9 /* Sanat_KitabimTests.swift */; };
 		EC1C174E2A2D806C0033B0E9 /* Sanat_KitabimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1C174D2A2D806C0033B0E9 /* Sanat_KitabimUITests.swift */; };
 		EC1C17502A2D806C0033B0E9 /* Sanat_KitabimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1C174F2A2D806C0033B0E9 /* Sanat_KitabimUITestsLaunchTests.swift */; };
+		EC1C175D2A2D82900033B0E9 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1C175C2A2D82900033B0E9 /* DetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		EC1C17492A2D806C0033B0E9 /* Sanat KitabimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sanat KitabimUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1C174D2A2D806C0033B0E9 /* Sanat_KitabimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sanat_KitabimUITests.swift; sourceTree = "<group>"; };
 		EC1C174F2A2D806C0033B0E9 /* Sanat_KitabimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sanat_KitabimUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC1C175C2A2D82900033B0E9 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				EC1C17292A2D806B0033B0E9 /* AppDelegate.swift */,
 				EC1C172B2A2D806B0033B0E9 /* SceneDelegate.swift */,
 				EC1C172D2A2D806B0033B0E9 /* ViewController.swift */,
+				EC1C175C2A2D82900033B0E9 /* DetailsVC.swift */,
 				EC1C172F2A2D806B0033B0E9 /* Main.storyboard */,
 				EC1C17352A2D806C0033B0E9 /* Assets.xcassets */,
 				EC1C17372A2D806C0033B0E9 /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 				EC1C17342A2D806B0033B0E9 /* Sanat_Kitabim.xcdatamodeld in Sources */,
 				EC1C172A2A2D806B0033B0E9 /* AppDelegate.swift in Sources */,
 				EC1C172C2A2D806B0033B0E9 /* SceneDelegate.swift in Sources */,
+				EC1C175D2A2D82900033B0E9 /* DetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
