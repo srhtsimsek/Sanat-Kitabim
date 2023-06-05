@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1C172A2A2D806B0033B0E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1C17292A2D806B0033B0E9 /* AppDelegate.swift */; };
+		EC1C172C2A2D806B0033B0E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1C172B2A2D806B0033B0E9 /* SceneDelegate.swift */; };
+		EC1C172E2A2D806B0033B0E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1C172D2A2D806B0033B0E9 /* ViewController.swift */; };
+		EC1C17312A2D806B0033B0E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1C172F2A2D806B0033B0E9 /* Main.storyboard */; };
+		EC1C17342A2D806B0033B0E9 /* Sanat_Kitabim.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC1C17322A2D806B0033B0E9 /* Sanat_Kitabim.xcdatamodeld */; };
+		EC1C17362A2D806C0033B0E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1C17352A2D806C0033B0E9 /* Assets.xcassets */; };
+		EC1C17392A2D806C0033B0E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1C17372A2D806C0033B0E9 /* LaunchScreen.storyboard */; };
+		EC1C17442A2D806C0033B0E9 /* Sanat_KitabimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1C17432A2D806C0033B0E9 /* Sanat_KitabimTests.swift */; };
+		EC1C174E2A2D806C0033B0E9 /* Sanat_KitabimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1C174D2A2D806C0033B0E9 /* Sanat_KitabimUITests.swift */; };
+		EC1C17502A2D806C0033B0E9 /* Sanat_KitabimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1C174F2A2D806C0033B0E9 /* Sanat_KitabimUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC1C17402A2D806C0033B0E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1C171E2A2D806B0033B0E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1C17252A2D806B0033B0E9;
+			remoteInfo = "Sanat Kitabim";
+		};
+		EC1C174A2A2D806C0033B0E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1C171E2A2D806B0033B0E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1C17252A2D806B0033B0E9;
+			remoteInfo = "Sanat Kitabim";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC1C17262A2D806B0033B0E9 /* Sanat Kitabim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sanat Kitabim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1C17292A2D806B0033B0E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC1C172B2A2D806B0033B0E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC1C172D2A2D806B0033B0E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC1C17302A2D806B0033B0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC1C17332A2D806B0033B0E9 /* Sanat_Kitabim.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sanat_Kitabim.xcdatamodel; sourceTree = "<group>"; };
+		EC1C17352A2D806C0033B0E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC1C17382A2D806C0033B0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC1C173A2A2D806C0033B0E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1C173F2A2D806C0033B0E9 /* Sanat KitabimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sanat KitabimTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1C17432A2D806C0033B0E9 /* Sanat_KitabimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sanat_KitabimTests.swift; sourceTree = "<group>"; };
+		EC1C17492A2D806C0033B0E9 /* Sanat KitabimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sanat KitabimUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1C174D2A2D806C0033B0E9 /* Sanat_KitabimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sanat_KitabimUITests.swift; sourceTree = "<group>"; };
+		EC1C174F2A2D806C0033B0E9 /* Sanat_KitabimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sanat_KitabimUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC1C17232A2D806B0033B0E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1C173C2A2D806C0033B0E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1C17462A2D806C0033B0E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC1C171D2A2D806B0033B0E9 = {
+			isa = PBXGroup;
+			children = (
+				EC1C17282A2D806B0033B0E9 /* Sanat Kitabim */,
+				EC1C17422A2D806C0033B0E9 /* Sanat KitabimTests */,
+				EC1C174C2A2D806C0033B0E9 /* Sanat KitabimUITests */,
+				EC1C17272A2D806B0033B0E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC1C17272A2D806B0033B0E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC1C17262A2D806B0033B0E9 /* Sanat Kitabim.app */,
+				EC1C173F2A2D806C0033B0E9 /* Sanat KitabimTests.xctest */,
+				EC1C17492A2D806C0033B0E9 /* Sanat KitabimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC1C17282A2D806B0033B0E9 /* Sanat Kitabim */ = {
+			isa = PBXGroup;
+			children = (
+				EC1C17292A2D806B0033B0E9 /* AppDelegate.swift */,
+				EC1C172B2A2D806B0033B0E9 /* SceneDelegate.swift */,
+				EC1C172D2A2D806B0033B0E9 /* ViewController.swift */,
+				EC1C172F2A2D806B0033B0E9 /* Main.storyboard */,
+				EC1C17352A2D806C0033B0E9 /* Assets.xcassets */,
+				EC1C17372A2D806C0033B0E9 /* LaunchScreen.storyboard */,
+				EC1C173A2A2D806C0033B0E9 /* Info.plist */,
+				EC1C17322A2D806B0033B0E9 /* Sanat_Kitabim.xcdatamodeld */,
+			);
+			path = "Sanat Kitabim";
+			sourceTree = "<group>";
+		};
+		EC1C17422A2D806C0033B0E9 /* Sanat KitabimTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1C17432A2D806C0033B0E9 /* Sanat_KitabimTests.swift */,
+			);
+			path = "Sanat KitabimTests";
+			sourceTree = "<group>";
+		};
+		EC1C174C2A2D806C0033B0E9 /* Sanat KitabimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1C174D2A2D806C0033B0E9 /* Sanat_KitabimUITests.swift */,
+				EC1C174F2A2D806C0033B0E9 /* Sanat_KitabimUITestsLaunchTests.swift */,
+			);
+			path = "Sanat KitabimUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC1C17252A2D806B0033B0E9 /* Sanat Kitabim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1C17532A2D806C0033B0E9 /* Build configuration list for PBXNativeTarget "Sanat Kitabim" */;
+			buildPhases = (
+				EC1C17222A2D806B0033B0E9 /* Sources */,
+				EC1C17232A2D806B0033B0E9 /* Frameworks */,
+				EC1C17242A2D806B0033B0E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sanat Kitabim";
+			productName = "Sanat Kitabim";
+			productReference = EC1C17262A2D806B0033B0E9 /* Sanat Kitabim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC1C173E2A2D806C0033B0E9 /* Sanat KitabimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1C17562A2D806C0033B0E9 /* Build configuration list for PBXNativeTarget "Sanat KitabimTests" */;
+			buildPhases = (
+				EC1C173B2A2D806C0033B0E9 /* Sources */,
+				EC1C173C2A2D806C0033B0E9 /* Frameworks */,
+				EC1C173D2A2D806C0033B0E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1C17412A2D806C0033B0E9 /* PBXTargetDependency */,
+			);
+			name = "Sanat KitabimTests";
+			productName = "Sanat KitabimTests";
+			productReference = EC1C173F2A2D806C0033B0E9 /* Sanat KitabimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC1C17482A2D806C0033B0E9 /* Sanat KitabimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1C17592A2D806C0033B0E9 /* Build configuration list for PBXNativeTarget "Sanat KitabimUITests" */;
+			buildPhases = (
+				EC1C17452A2D806C0033B0E9 /* Sources */,
+				EC1C17462A2D806C0033B0E9 /* Frameworks */,
+				EC1C17472A2D806C0033B0E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1C174B2A2D806C0033B0E9 /* PBXTargetDependency */,
+			);
+			name = "Sanat KitabimUITests";
+			productName = "Sanat KitabimUITests";
+			productReference = EC1C17492A2D806C0033B0E9 /* Sanat KitabimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC1C171E2A2D806B0033B0E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EC1C17252A2D806B0033B0E9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EC1C173E2A2D806C0033B0E9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EC1C17252A2D806B0033B0E9;
+					};
+					EC1C17482A2D806C0033B0E9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EC1C17252A2D806B0033B0E9;
+					};
+				};
+			};
+			buildConfigurationList = EC1C17212A2D806B0033B0E9 /* Build configuration list for PBXProject "Sanat Kitabim" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC1C171D2A2D806B0033B0E9;
+			productRefGroup = EC1C17272A2D806B0033B0E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC1C17252A2D806B0033B0E9 /* Sanat Kitabim */,
+				EC1C173E2A2D806C0033B0E9 /* Sanat KitabimTests */,
+				EC1C17482A2D806C0033B0E9 /* Sanat KitabimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC1C17242A2D806B0033B0E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1C17392A2D806C0033B0E9 /* LaunchScreen.storyboard in Resources */,
+				EC1C17362A2D806C0033B0E9 /* Assets.xcassets in Resources */,
+				EC1C17312A2D806B0033B0E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1C173D2A2D806C0033B0E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1C17472A2D806C0033B0E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC1C17222A2D806B0033B0E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1C172E2A2D806B0033B0E9 /* ViewController.swift in Sources */,
+				EC1C17342A2D806B0033B0E9 /* Sanat_Kitabim.xcdatamodeld in Sources */,
+				EC1C172A2A2D806B0033B0E9 /* AppDelegate.swift in Sources */,
+				EC1C172C2A2D806B0033B0E9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1C173B2A2D806C0033B0E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1C17442A2D806C0033B0E9 /* Sanat_KitabimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1C17452A2D806C0033B0E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1C17502A2D806C0033B0E9 /* Sanat_KitabimUITestsLaunchTests.swift in Sources */,
+				EC1C174E2A2D806C0033B0E9 /* Sanat_KitabimUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC1C17412A2D806C0033B0E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1C17252A2D806B0033B0E9 /* Sanat Kitabim */;
+			targetProxy = EC1C17402A2D806C0033B0E9 /* PBXContainerItemProxy */;
+		};
+		EC1C174B2A2D806C0033B0E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1C17252A2D806B0033B0E9 /* Sanat Kitabim */;
+			targetProxy = EC1C174A2A2D806C0033B0E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC1C172F2A2D806B0033B0E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1C17302A2D806B0033B0E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC1C17372A2D806C0033B0E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1C17382A2D806C0033B0E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC1C17512A2D806C0033B0E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC1C17522A2D806C0033B0E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC1C17542A2D806C0033B0E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QAS44S4GM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sanat Kitabim/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.serhatsimsek.Sanat-Kitabim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC1C17552A2D806C0033B0E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QAS44S4GM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sanat Kitabim/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.serhatsimsek.Sanat-Kitabim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC1C17572A2D806C0033B0E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QAS44S4GM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.serhatsimsek.Sanat-KitabimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sanat Kitabim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sanat Kitabim";
+			};
+			name = Debug;
+		};
+		EC1C17582A2D806C0033B0E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QAS44S4GM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.serhatsimsek.Sanat-KitabimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sanat Kitabim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sanat Kitabim";
+			};
+			name = Release;
+		};
+		EC1C175A2A2D806C0033B0E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QAS44S4GM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.serhatsimsek.Sanat-KitabimUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sanat Kitabim";
+			};
+			name = Debug;
+		};
+		EC1C175B2A2D806C0033B0E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QAS44S4GM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.serhatsimsek.Sanat-KitabimUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sanat Kitabim";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC1C17212A2D806B0033B0E9 /* Build configuration list for PBXProject "Sanat Kitabim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1C17512A2D806C0033B0E9 /* Debug */,
+				EC1C17522A2D806C0033B0E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1C17532A2D806C0033B0E9 /* Build configuration list for PBXNativeTarget "Sanat Kitabim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1C17542A2D806C0033B0E9 /* Debug */,
+				EC1C17552A2D806C0033B0E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1C17562A2D806C0033B0E9 /* Build configuration list for PBXNativeTarget "Sanat KitabimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1C17572A2D806C0033B0E9 /* Debug */,
+				EC1C17582A2D806C0033B0E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1C17592A2D806C0033B0E9 /* Build configuration list for PBXNativeTarget "Sanat KitabimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1C175A2A2D806C0033B0E9 /* Debug */,
+				EC1C175B2A2D806C0033B0E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC1C17322A2D806B0033B0E9 /* Sanat_Kitabim.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC1C17332A2D806B0033B0E9 /* Sanat_Kitabim.xcdatamodel */,
+			);
+			currentVersion = EC1C17332A2D806B0033B0E9 /* Sanat_Kitabim.xcdatamodel */;
+			path = Sanat_Kitabim.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC1C171E2A2D806B0033B0E9 /* Project object */;
+}
